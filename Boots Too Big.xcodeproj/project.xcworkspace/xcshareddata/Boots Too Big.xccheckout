@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>539FF3C5-664E-4E1B-9479-5499ACBDE95D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Boots Too Big</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>178740BD-476B-49FB-97EB-39DDD9FFB51F</key>
+		<string>https://github.com/andrewlarimer/boots-too-big</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Boots Too Big.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>178740BD-476B-49FB-97EB-39DDD9FFB51F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andrewlarimer/boots-too-big</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>178740BD-476B-49FB-97EB-39DDD9FFB51F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>178740BD-476B-49FB-97EB-39DDD9FFB51F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>boots-too-big</string>
+		</dict>
+	</array>
+</dict>
+</plist>

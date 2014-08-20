@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E223B6901911F5810087E960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B68F1911F5810087E960 /* Foundation.framework */; };
+		E223B6921911F5810087E960 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6911911F5810087E960 /* CoreGraphics.framework */; };
+		E223B6941911F5810087E960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6931911F5810087E960 /* UIKit.framework */; };
+		E223B69A1911F5810087E960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E223B6981911F5810087E960 /* InfoPlist.strings */; };
+		E223B69C1911F5810087E960 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B69B1911F5810087E960 /* main.m */; };
+		E223B6A01911F5810087E960 /* BootsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B69F1911F5810087E960 /* BootsAppDelegate.m */; };
+		E223B6A31911F5810087E960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E223B6A11911F5810087E960 /* Main.storyboard */; };
+		E223B6A61911F5810087E960 /* BootsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B6A51911F5810087E960 /* BootsViewController.m */; };
+		E223B6A81911F5810087E960 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E223B6A71911F5810087E960 /* Images.xcassets */; };
+		E223B6AF1911F5810087E960 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6AE1911F5810087E960 /* XCTest.framework */; };
+		E223B6B01911F5810087E960 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B68F1911F5810087E960 /* Foundation.framework */; };
+		E223B6B11911F5810087E960 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6931911F5810087E960 /* UIKit.framework */; };
+		E223B6B91911F5810087E960 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E223B6B71911F5810087E960 /* InfoPlist.strings */; };
+		E223B6BB1911F5820087E960 /* Boots_Too_BigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B6BA1911F5820087E960 /* Boots_Too_BigTests.m */; };
+		E223B6CB1911F6A90087E960 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6C51911F6A90087E960 /* AssetsLibrary.framework */; };
+		E223B6CC1911F6A90087E960 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6C61911F6A90087E960 /* AVFoundation.framework */; };
+		E223B6CD1911F6A90087E960 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6C71911F6A90087E960 /* CoreMedia.framework */; };
+		E223B6CE1911F6A90087E960 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6C81911F6A90087E960 /* MediaPlayer.framework */; };
+		E223B6CF1911F6A90087E960 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6C91911F6A90087E960 /* MobileCoreServices.framework */; };
+		E223B6D01911F6A90087E960 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E223B6CA1911F6A90087E960 /* QuartzCore.framework */; };
+		E223B6D31911FF440087E960 /* PlayVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B6D21911FF440087E960 /* PlayVideoViewController.m */; };
+		E223B6D71911FF800087E960 /* RecordVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B6D61911FF800087E960 /* RecordVideoViewController.m */; };
+		E223B6DA1911FF9D0087E960 /* MergeVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E223B6D91911FF9D0087E960 /* MergeVideoViewController.m */; };
+		E23E474D191B1E420057DC50 /* SimultaneousVideoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E474C191B1E420057DC50 /* SimultaneousVideoEditorViewController.m */; };
+		E23E474E191B1E420057DC50 /* SimultaneousVideoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E474C191B1E420057DC50 /* SimultaneousVideoEditorViewController.m */; };
+		E23E4750191B1E7E0057DC50 /* Video4.mov in Resources */ = {isa = PBXBuildFile; fileRef = E23E474F191B1E7E0057DC50 /* Video4.mov */; };
+		E23E4751191B1E7E0057DC50 /* Video4.mov in Resources */ = {isa = PBXBuildFile; fileRef = E23E474F191B1E7E0057DC50 /* Video4.mov */; };
+		E23E4755191B2E320057DC50 /* SimultaneousVideoEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E4754191B2E320057DC50 /* SimultaneousVideoEditorView.m */; };
+		E23E4756191B2E320057DC50 /* SimultaneousVideoEditorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E23E4754191B2E320057DC50 /* SimultaneousVideoEditorView.m */; };
+		E254611919169EF3001EDB21 /* SceneEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254611819169EF3001EDB21 /* SceneEditorViewController.m */; };
+		E254611A19169EF3001EDB21 /* SceneEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254611819169EF3001EDB21 /* SceneEditorViewController.m */; };
+		E25461281916E00A001EDB21 /* VideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = E25461271916E00A001EDB21 /* VideoEditor.m */; };
+		E25461291916E00A001EDB21 /* VideoEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = E25461271916E00A001EDB21 /* VideoEditor.m */; };
+		E254612C1917363C001EDB21 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254612B1917363C001EDB21 /* VideoPlayerViewController.m */; };
+		E254612D1917363C001EDB21 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254612B1917363C001EDB21 /* VideoPlayerViewController.m */; };
+		E254613219173BA1001EDB21 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E254613119173BA1001EDB21 /* VideoPlayerView.m */; };
+		E254613319173BA1001EDB21 /* VideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E254613119173BA1001EDB21 /* VideoPlayerView.m */; };
+		E254613619174335001EDB21 /* PlayMutlipleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254613519174335001EDB21 /* PlayMutlipleVideoViewController.m */; };
+		E254613719174335001EDB21 /* PlayMutlipleVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E254613519174335001EDB21 /* PlayMutlipleVideoViewController.m */; };
+		E254613A19174917001EDB21 /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E254613919174917001EDB21 /* Video2.mp4 */; };
+		E254613B19174917001EDB21 /* Video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E254613919174917001EDB21 /* Video2.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E223B6B21911F5810087E960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E223B6841911F5810087E960 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E223B68B1911F5810087E960;
+			remoteInfo = "Boots Too Big";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E223B68C1911F5810087E960 /* Boots Too Big.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boots Too Big.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E223B68F1911F5810087E960 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E223B6911911F5810087E960 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E223B6931911F5810087E960 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E223B6971911F5810087E960 /* Boots Too Big-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boots Too Big-Info.plist"; sourceTree = "<group>"; };
+		E223B6991911F5810087E960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E223B69B1911F5810087E960 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E223B69D1911F5810087E960 /* Boots Too Big-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Boots Too Big-Prefix.pch"; sourceTree = "<group>"; };
+		E223B69E1911F5810087E960 /* BootsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootsAppDelegate.h; sourceTree = "<group>"; };
+		E223B69F1911F5810087E960 /* BootsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootsAppDelegate.m; sourceTree = "<group>"; };
+		E223B6A21911F5810087E960 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E223B6A41911F5810087E960 /* BootsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BootsViewController.h; sourceTree = "<group>"; };
+		E223B6A51911F5810087E960 /* BootsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BootsViewController.m; sourceTree = "<group>"; };
+		E223B6A71911F5810087E960 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E223B6AD1911F5810087E960 /* Boots Too BigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boots Too BigTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E223B6AE1911F5810087E960 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E223B6B61911F5810087E960 /* Boots Too BigTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Boots Too BigTests-Info.plist"; sourceTree = "<group>"; };
+		E223B6B81911F5810087E960 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E223B6BA1911F5820087E960 /* Boots_Too_BigTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boots_Too_BigTests.m; sourceTree = "<group>"; };
+		E223B6C51911F6A90087E960 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E223B6C61911F6A90087E960 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E223B6C71911F6A90087E960 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E223B6C81911F6A90087E960 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		E223B6C91911F6A90087E960 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		E223B6CA1911F6A90087E960 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E223B6D11911FF440087E960 /* PlayVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayVideoViewController.h; path = viewController/PlayVideoViewController.h; sourceTree = "<group>"; };
+		E223B6D21911FF440087E960 /* PlayVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayVideoViewController.m; path = viewController/PlayVideoViewController.m; sourceTree = "<group>"; };
+		E223B6D51911FF800087E960 /* RecordVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordVideoViewController.h; sourceTree = "<group>"; };
+		E223B6D61911FF800087E960 /* RecordVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordVideoViewController.m; sourceTree = "<group>"; };
+		E223B6D81911FF9D0087E960 /* MergeVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeVideoViewController.h; sourceTree = "<group>"; };
+		E223B6D91911FF9D0087E960 /* MergeVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeVideoViewController.m; sourceTree = "<group>"; };
+		E23E474B191B1E420057DC50 /* SimultaneousVideoEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimultaneousVideoEditorViewController.h; path = viewController/SimultaneousVideoEditorViewController.h; sourceTree = "<group>"; };
+		E23E474C191B1E420057DC50 /* SimultaneousVideoEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimultaneousVideoEditorViewController.m; path = viewController/SimultaneousVideoEditorViewController.m; sourceTree = "<group>"; };
+		E23E474F191B1E7E0057DC50 /* Video4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Video4.mov; sourceTree = "<group>"; };
+		E23E4753191B2E320057DC50 /* SimultaneousVideoEditorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimultaneousVideoEditorView.h; sourceTree = "<group>"; };
+		E23E4754191B2E320057DC50 /* SimultaneousVideoEditorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimultaneousVideoEditorView.m; sourceTree = "<group>"; };
+		E254611719169EF3001EDB21 /* SceneEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SceneEditorViewController.h; path = viewController/SceneEditorViewController.h; sourceTree = "<group>"; };
+		E254611819169EF3001EDB21 /* SceneEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SceneEditorViewController.m; path = viewController/SceneEditorViewController.m; sourceTree = "<group>"; };
+		E25461261916E00A001EDB21 /* VideoEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoEditor.h; path = media/VideoEditor.h; sourceTree = "<group>"; };
+		E25461271916E00A001EDB21 /* VideoEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEditor.m; path = media/VideoEditor.m; sourceTree = "<group>"; };
+		E254612A1917363C001EDB21 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoPlayerViewController.h; path = viewController/VideoPlayerViewController.h; sourceTree = "<group>"; };
+		E254612B1917363C001EDB21 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoPlayerViewController.m; path = viewController/VideoPlayerViewController.m; sourceTree = "<group>"; };
+		E254613019173BA0001EDB21 /* VideoPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoPlayerView.h; path = videoPlayer/VideoPlayerView.h; sourceTree = "<group>"; };
+		E254613119173BA1001EDB21 /* VideoPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoPlayerView.m; path = videoPlayer/VideoPlayerView.m; sourceTree = "<group>"; };
+		E254613419174335001EDB21 /* PlayMutlipleVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayMutlipleVideoViewController.h; sourceTree = "<group>"; };
+		E254613519174335001EDB21 /* PlayMutlipleVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayMutlipleVideoViewController.m; sourceTree = "<group>"; };
+		E254613919174917001EDB21 /* Video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video2.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E223B6891911F5810087E960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E223B6CB1911F6A90087E960 /* AssetsLibrary.framework in Frameworks */,
+				E223B6CC1911F6A90087E960 /* AVFoundation.framework in Frameworks */,
+				E223B6CD1911F6A90087E960 /* CoreMedia.framework in Frameworks */,
+				E223B6CE1911F6A90087E960 /* MediaPlayer.framework in Frameworks */,
+				E223B6CF1911F6A90087E960 /* MobileCoreServices.framework in Frameworks */,
+				E223B6D01911F6A90087E960 /* QuartzCore.framework in Frameworks */,
+				E223B6921911F5810087E960 /* CoreGraphics.framework in Frameworks */,
+				E223B6941911F5810087E960 /* UIKit.framework in Frameworks */,
+				E223B6901911F5810087E960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E223B6AA1911F5810087E960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E223B6AF1911F5810087E960 /* XCTest.framework in Frameworks */,
+				E223B6B11911F5810087E960 /* UIKit.framework in Frameworks */,
+				E223B6B01911F5810087E960 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E223B6831911F5810087E960 = {
+			isa = PBXGroup;
+			children = (
+				E223B6951911F5810087E960 /* Boots Too Big */,
+				E223B6B41911F5810087E960 /* Boots Too BigTests */,
+				E223B68E1911F5810087E960 /* Frameworks */,
+				E223B68D1911F5810087E960 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E223B68D1911F5810087E960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E223B68C1911F5810087E960 /* Boots Too Big.app */,
+				E223B6AD1911F5810087E960 /* Boots Too BigTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E223B68E1911F5810087E960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E223B6C51911F6A90087E960 /* AssetsLibrary.framework */,
+				E223B6C61911F6A90087E960 /* AVFoundation.framework */,
+				E223B6C71911F6A90087E960 /* CoreMedia.framework */,
+				E223B6C81911F6A90087E960 /* MediaPlayer.framework */,
+				E223B6C91911F6A90087E960 /* MobileCoreServices.framework */,
+				E223B6CA1911F6A90087E960 /* QuartzCore.framework */,
+				E223B68F1911F5810087E960 /* Foundation.framework */,
+				E223B6911911F5810087E960 /* CoreGraphics.framework */,
+				E223B6931911F5810087E960 /* UIKit.framework */,
+				E223B6AE1911F5810087E960 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E223B6951911F5810087E960 /* Boots Too Big */ = {
+			isa = PBXGroup;
+			children = (
+				E25461211916DFB9001EDB21 /* media */,
+				E223B6C41911F5950087E960 /* App */,
+				E223B6A11911F5810087E960 /* Main.storyboard */,
+				E223B6A41911F5810087E960 /* BootsViewController.h */,
+				E223B6A51911F5810087E960 /* BootsViewController.m */,
+				E223B6A71911F5810087E960 /* Images.xcassets */,
+				E223B6961911F5810087E960 /* Supporting Files */,
+				E223B6D41911FF600087E960 /* viewController */,
+			);
+			path = "Boots Too Big";
+			sourceTree = "<group>";
+		};
+		E223B6961911F5810087E960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23E474F191B1E7E0057DC50 /* Video4.mov */,
+				E254613919174917001EDB21 /* Video2.mp4 */,
+				E223B6971911F5810087E960 /* Boots Too Big-Info.plist */,
+				E223B6981911F5810087E960 /* InfoPlist.strings */,
+				E223B69B1911F5810087E960 /* main.m */,
+				E223B69D1911F5810087E960 /* Boots Too Big-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E223B6B41911F5810087E960 /* Boots Too BigTests */ = {
+			isa = PBXGroup;
+			children = (
+				E223B6BA1911F5820087E960 /* Boots_Too_BigTests.m */,
+				E223B6B51911F5810087E960 /* Supporting Files */,
+			);
+			path = "Boots Too BigTests";
+			sourceTree = "<group>";
+		};
+		E223B6B51911F5810087E960 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E223B6B61911F5810087E960 /* Boots Too BigTests-Info.plist */,
+				E223B6B71911F5810087E960 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E223B6C41911F5950087E960 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E223B69E1911F5810087E960 /* BootsAppDelegate.h */,
+				E223B69F1911F5810087E960 /* BootsAppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		E223B6D41911FF600087E960 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				E254612F19173B5E001EDB21 /* videoPlayer */,
+				E223B6D11911FF440087E960 /* PlayVideoViewController.h */,
+				E223B6D21911FF440087E960 /* PlayVideoViewController.m */,
+				E223B6D51911FF800087E960 /* RecordVideoViewController.h */,
+				E223B6D61911FF800087E960 /* RecordVideoViewController.m */,
+				E223B6D81911FF9D0087E960 /* MergeVideoViewController.h */,
+				E223B6D91911FF9D0087E960 /* MergeVideoViewController.m */,
+				E254611719169EF3001EDB21 /* SceneEditorViewController.h */,
+				E254611819169EF3001EDB21 /* SceneEditorViewController.m */,
+				E23E4752191B2DBD0057DC50 /* simultaneousVideoEditor */,
+			);
+			name = viewController;
+			sourceTree = "<group>";
+		};
+		E23E4752191B2DBD0057DC50 /* simultaneousVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E23E474B191B1E420057DC50 /* SimultaneousVideoEditorViewController.h */,
+				E23E474C191B1E420057DC50 /* SimultaneousVideoEditorViewController.m */,
+				E23E4753191B2E320057DC50 /* SimultaneousVideoEditorView.h */,
+				E23E4754191B2E320057DC50 /* SimultaneousVideoEditorView.m */,
+			);
+			name = simultaneousVideoEditor;
+			sourceTree = "<group>";
+		};
+		E25461211916DFB9001EDB21 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				E25461261916E00A001EDB21 /* VideoEditor.h */,
+				E25461271916E00A001EDB21 /* VideoEditor.m */,
+			);
+			name = media;
+			sourceTree = "<group>";
+		};
+		E254612F19173B5E001EDB21 /* videoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				E254613419174335001EDB21 /* PlayMutlipleVideoViewController.h */,
+				E254613519174335001EDB21 /* PlayMutlipleVideoViewController.m */,
+				E254612A1917363C001EDB21 /* VideoPlayerViewController.h */,
+				E254612B1917363C001EDB21 /* VideoPlayerViewController.m */,
+				E254613019173BA0001EDB21 /* VideoPlayerView.h */,
+				E254613119173BA1001EDB21 /* VideoPlayerView.m */,
+			);
+			name = videoPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E223B68B1911F5810087E960 /* Boots Too Big */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E223B6BE1911F5820087E960 /* Build configuration list for PBXNativeTarget "Boots Too Big" */;
+			buildPhases = (
+				E223B6881911F5810087E960 /* Sources */,
+				E223B6891911F5810087E960 /* Frameworks */,
+				E223B68A1911F5810087E960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Boots Too Big";
+			productName = "Boots Too Big";
+			productReference = E223B68C1911F5810087E960 /* Boots Too Big.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E223B6AC1911F5810087E960 /* Boots Too BigTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E223B6C11911F5820087E960 /* Build configuration list for PBXNativeTarget "Boots Too BigTests" */;
+			buildPhases = (
+				E223B6A91911F5810087E960 /* Sources */,
+				E223B6AA1911F5810087E960 /* Frameworks */,
+				E223B6AB1911F5810087E960 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E223B6B31911F5810087E960 /* PBXTargetDependency */,
+			);
+			name = "Boots Too BigTests";
+			productName = "Boots Too BigTests";
+			productReference = E223B6AD1911F5810087E960 /* Boots Too BigTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E223B6841911F5810087E960 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Boots;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "John Fraboni";
+				TargetAttributes = {
+					E223B68B1911F5810087E960 = {
+						DevelopmentTeam = HM7TD2W745;
+					};
+					E223B6AC1911F5810087E960 = {
+						TestTargetID = E223B68B1911F5810087E960;
+					};
+				};
+			};
+			buildConfigurationList = E223B6871911F5810087E960 /* Build configuration list for PBXProject "Boots Too Big" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E223B6831911F5810087E960;
+			productRefGroup = E223B68D1911F5810087E960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E223B68B1911F5810087E960 /* Boots Too Big */,
+				E223B6AC1911F5810087E960 /* Boots Too BigTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E223B68A1911F5810087E960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E223B6A81911F5810087E960 /* Images.xcassets in Resources */,
+				E223B69A1911F5810087E960 /* InfoPlist.strings in Resources */,
+				E23E4750191B1E7E0057DC50 /* Video4.mov in Resources */,
+				E254613A19174917001EDB21 /* Video2.mp4 in Resources */,
+				E223B6A31911F5810087E960 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E223B6AB1911F5810087E960 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23E4751191B1E7E0057DC50 /* Video4.mov in Resources */,
+				E254613B19174917001EDB21 /* Video2.mp4 in Resources */,
+				E223B6B91911F5810087E960 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E223B6881911F5810087E960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E223B6D31911FF440087E960 /* PlayVideoViewController.m in Sources */,
+				E223B6A01911F5810087E960 /* BootsAppDelegate.m in Sources */,
+				E254612C1917363C001EDB21 /* VideoPlayerViewController.m in Sources */,
+				E223B69C1911F5810087E960 /* main.m in Sources */,
+				E23E474D191B1E420057DC50 /* SimultaneousVideoEditorViewController.m in Sources */,
+				E254613619174335001EDB21 /* PlayMutlipleVideoViewController.m in Sources */,
+				E223B6D71911FF800087E960 /* RecordVideoViewController.m in Sources */,
+				E254613219173BA1001EDB21 /* VideoPlayerView.m in Sources */,
+				E223B6A61911F5810087E960 /* BootsViewController.m in Sources */,
+				E223B6DA1911FF9D0087E960 /* MergeVideoViewController.m in Sources */,
+				E23E4755191B2E320057DC50 /* SimultaneousVideoEditorView.m in Sources */,
+				E254611919169EF3001EDB21 /* SceneEditorViewController.m in Sources */,
+				E25461281916E00A001EDB21 /* VideoEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E223B6A91911F5810087E960 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E254613719174335001EDB21 /* PlayMutlipleVideoViewController.m in Sources */,
+				E254613319173BA1001EDB21 /* VideoPlayerView.m in Sources */,
+				E23E4756191B2E320057DC50 /* SimultaneousVideoEditorView.m in Sources */,
+				E223B6BB1911F5820087E960 /* Boots_Too_BigTests.m in Sources */,
+				E254612D1917363C001EDB21 /* VideoPlayerViewController.m in Sources */,
+				E254611A19169EF3001EDB21 /* SceneEditorViewController.m in Sources */,
+				E23E474E191B1E420057DC50 /* SimultaneousVideoEditorViewController.m in Sources */,
+				E25461291916E00A001EDB21 /* VideoEditor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E223B6B31911F5810087E960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E223B68B1911F5810087E960 /* Boots Too Big */;
+			targetProxy = E223B6B21911F5810087E960 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E223B6981911F5810087E960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E223B6991911F5810087E960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E223B6A11911F5810087E960 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E223B6A21911F5810087E960 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E223B6B71911F5810087E960 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E223B6B81911F5810087E960 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E223B6BC1911F5820087E960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E223B6BD1911F5820087E960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E223B6BF1911F5820087E960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boots Too Big/Boots Too Big-Prefix.pch";
+				INFOPLIST_FILE = "Boots Too Big/Boots Too Big-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E223B6C01911F5820087E960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boots Too Big/Boots Too Big-Prefix.pch";
+				INFOPLIST_FILE = "Boots Too Big/Boots Too Big-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E223B6C21911F5820087E960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boots Too Big.app/Boots Too Big";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boots Too Big/Boots Too Big-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Boots Too BigTests/Boots Too BigTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E223B6C31911F5820087E960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Boots Too Big.app/Boots Too Big";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Boots Too Big/Boots Too Big-Prefix.pch";
+				INFOPLIST_FILE = "Boots Too BigTests/Boots Too BigTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E223B6871911F5810087E960 /* Build configuration list for PBXProject "Boots Too Big" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E223B6BC1911F5820087E960 /* Debug */,
+				E223B6BD1911F5820087E960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E223B6BE1911F5820087E960 /* Build configuration list for PBXNativeTarget "Boots Too Big" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E223B6BF1911F5820087E960 /* Debug */,
+				E223B6C01911F5820087E960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E223B6C11911F5820087E960 /* Build configuration list for PBXNativeTarget "Boots Too BigTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E223B6C21911F5820087E960 /* Debug */,
+				E223B6C31911F5820087E960 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E223B6841911F5810087E960 /* Project object */;
+}
